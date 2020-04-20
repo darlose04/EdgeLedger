@@ -22,22 +22,26 @@
   opacity: 0.9;
 }
 
-.btn-primary {
+.btn-primary,
+bg-primary {
   background: #28a745;
   color: #fff;
 }
 
-.btn-secondary {
+.btn-secondary,
+bg-secondary {
   color: #0284d0;
   background-color: #fff;
 }
 
-.btn-dark {
+.btn-dark,
+bg-dark {
   color: #fff;
   background: #333;
 }
 
-.btn-light {
+.btn-light,
+bg-light {
   background: #f4f4f4;
   color: #333;
 }

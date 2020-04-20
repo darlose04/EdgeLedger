@@ -45,3 +45,8 @@
   background: #f4f4f4;
   color: #333;
 }
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}

@@ -45,36 +45,3 @@
   background: #f4f4f4;
   color: #333;
 }
-
-/* Flex items */
-.flex-items {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.flex-items > div {
-  padding: 20px;
-}
-
-/* Flex columns */
-.flex-columns .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.flex-columns .column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.flex-columns .column .column-1,
-.flex-columns .column .column-2 {
-  height: 100%;
-}

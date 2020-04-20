@@ -249,8 +249,13 @@
           if (!scrolled) {
             navbar.style.tranform = "translateY(-70px)";
           }
+          setTimeout(function () {
+            navbar.style.tranform = "translateY(0)";
+            scrolled = true;
+          }, 200);
         } else {
           navbar.classList.add("top");
+          scrolled = false;
         }
       };
     </script>
